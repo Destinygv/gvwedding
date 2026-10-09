@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-ivory: #FFFBF0;
+    --color-cream: #FAF2DE;
+    --color-parchment: #F4E7CB;
+    --color-burgundy: #741C2B;
+    --color-wine: #7F2032;
+    --color-dusty-rose: #C98E91;
+    --color-blush: #E4B3A9;
+    --color-sage: #71866F;
+    --color-gold: #C49A45;
+    --color-gold-light: #E5C378;
+    --color-dark: #2D231E;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FAF4E6;
+    color: #2D231E;
+  }
+
+  body {
+    background: radial-gradient(circle at 50% 0%, #FFFDF7 0%, #FAF3E2 50%, #F5E9CE 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+.font-serif-luxury {
+  font-family: 'Cormorant Garamond', Garamond, Georgia, serif;
+}
+
+.font-inscriptional {
+  font-family: 'Cinzel', Trajan, Georgia, serif;
+  letter-spacing: 0.12em;
+}
+
+.font-script {
+  font-family: 'Pinyon Script', 'Alex Brush', cursive;
+}
+
+.font-pinyon {
+  font-family: 'Pinyon Script', cursive;
+}
+
+.font-playfair {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-greatvibes {
+  font-family: 'Great Vibes', cursive;
+}
+
+.font-sans-clean {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Luxurious stationery cotton paper styling */
+.paper-texture {
+  background-color: #FFFDF8;
+  background-image: 
+    radial-gradient(rgba(196, 154, 69, 0.06) 1px, transparent 1px),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(250, 243, 226, 0.5) 100%);
+  background-size: 20px 20px, 100% 100%;
+}
+
+.stationery-border {
+  border: 1px solid rgba(196, 154, 69, 0.4);
+  box-shadow: 
+    0 0 0 5px #FFFDF8,
+    0 0 0 6.5px rgba(196, 154, 69, 0.25),
+    0 15px 35px -8px rgba(45, 35, 30, 0.08);
+}
+
+.arch-frame {
+  border-top-left-radius: 999px;
+  border-top-right-radius: 999px;
+}
+
+/* Fine hairline ornament lines */
+.hairline-gold {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(196, 154, 69, 0.6), transparent);
+}
+
+

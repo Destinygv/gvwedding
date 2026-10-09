@@ -1,0 +1,8 @@
+{
+  "name": "Gladys & Vikash | Wedding Invitation",
+  "description": "The Holy Matrimony celebration of Gladys Evangeline & Vikash Varma on October 16 & 17, 2026 at Cantonment Baptist Church, Vizianagaram.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
